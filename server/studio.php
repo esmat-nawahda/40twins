@@ -59,8 +59,6 @@ class studio extends DB {
         print(json_encode($result));
     }
 
-    
-
 
 
 }
