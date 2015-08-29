@@ -52,7 +52,7 @@
                         //Display the error message
                         $('#mail_fail').fadeIn(500);
                         // Enable the submit button again
-                        $('#send_message').removeAttr('disabled').attr('value', 'Send The Message');
+                        $('#send_message').removeAttr('disabled').attr('value', 'Send The Message :)');
                     }
                 });
             }
