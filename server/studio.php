@@ -22,6 +22,9 @@ class studio extends DB {
             case "getMyInfo":
                 $this->getMyInfo();
                 break;
+            case "insta_up":
+                $this->insta_up();
+                break;
             case "twitter_up":
                 $this->twitter_up();
                 break;
@@ -41,6 +44,15 @@ class studio extends DB {
         print(json_encode($row));
     }
 
+    protected function insta_up(){
+        $user_id=htmlspecialchars(stripslashes($_SESSION['user_id']));
+        $insta_link_up=htmlspecialchars(stripslashes($_POST['insta_link_up']));
+        $sql='update tuser set instagram="'.$insta_link_up.'" where id='.$user_id;
+        $result=$GLOBALS['db']->db_query($sql);
+
+        print(json_encode($result));
+    }
+
     protected function twitter_up(){
         $user_id=htmlspecialchars(stripslashes($_SESSION['user_id']));
         $twitter_link_up=htmlspecialchars(stripslashes($_POST['twitter_link_up']));
@@ -58,6 +70,8 @@ class studio extends DB {
 
         print(json_encode($result));
     }
+
+
 
 
 

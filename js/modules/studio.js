@@ -72,6 +72,43 @@ $('body').on('click', '#twitter_btn_up', function() {
 
 
 
+$('body').on('click', '#insta_btn_up', function() {
+    //alert("hh");
+    var insta_link_up=document.getElementById("insta_link_up").value;
+
+
+    var data="insta_link_up="+insta_link_up+"&todo=insta_up";
+
+    $.ajax({
+        type: "POST",
+        url: 'server/studio.php',
+        data: data, // appears as $_GET['id'] @ ur backend side
+        success: function (data) {
+            //var result = (data);
+            console.log(data);
+
+            if(data!=="ERROR") {
+                var jsonData = JSON.parse(data);
+                console.log(jsonData);
+
+
+                $('#go_my_insta').attr('href',"http://"+insta_link_up);
+
+
+            }else{
+                swal({
+                    title: "Editing Failed",
+                    text: "ERROR",
+                    type: "error"
+                });
+            }
+        }
+    });
+
+});
+
+
+
 $('body').on('click', '#phone_btn_up', function() {
     //alert("hh");
     var my_phone_up=document.getElementById("my_phone_up").value;
