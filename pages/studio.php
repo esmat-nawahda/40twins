@@ -45,8 +45,10 @@
 
             </div>
         </div>
+
         <div class="col-sm-2 col-xs-4">
             <div id="tile3" class="tile">
+                <a href="#insta_updateModal" data-toggle="modal" style="cursor: hand;">
 
                 <div class="carousel slide" data-ride="carousel">
                     <!-- Wrapper for slides -->
@@ -59,6 +61,7 @@
                         </div>
                     </div>
                 </div>
+                    </a>
             </div>
         </div>
         <div class="col-sm-2 col-xs-4">
