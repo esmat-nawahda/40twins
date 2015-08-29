@@ -18,7 +18,7 @@
                     <input type="hidden" id="act_id_up">
                     <div class="form-group">
                         <label for=twitter_link_up">Instagram URL</label>
-                        <input type="text" class="form-control" placeholder="Twitter URL" id="insta_link_up">
+                        <input type="text" class="form-control" placeholder="Instagram URL" id="insta_link_up">
                         <a href="#" id="go_my_insta" target="_blank">Go To My Instagram</a>
                     </div>
 
