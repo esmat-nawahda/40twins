@@ -2,10 +2,10 @@
 
 
 
-$host='localhost';
-$username='root';
-$password='1';
-$database='40twins';
+$host='twins40.db.11791507.hostedresource.com';
+$username='twins40';
+$password='Ptrptr@@12';
+$database='twins40';
 
 
 
