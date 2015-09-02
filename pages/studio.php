@@ -1,4 +1,3 @@
-
 <link rel="stylesheet" href="css/pages_style/studio.css">
 <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
 
@@ -203,8 +202,10 @@
     </div>
 
 
+    <?php include_once("../Modals/objects_modals/myinsta_modal.php"); ?>
     <?php include_once("../Modals/objects_modals/mytwitter_modal.php"); ?>
     <?php include_once("../Modals/objects_modals/phone_modal.php"); ?>
+    <?php include_once("../Modals/objects_modals/update_user_modal.php"); ?>
 
 
     <script>

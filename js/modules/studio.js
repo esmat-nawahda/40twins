@@ -14,9 +14,30 @@ function getMyInfo(){
             var jsonData = JSON.parse(data);
             console.log(jsonData);
             if(data!=="ERROR") {
+
+
+                //Start Modal Update User
+                //$("#user_youtube_video_up").val(jsonData.youtube_video);
+                $("#user_name_up").val(jsonData.username);
+                $("#user_fullname_up").val(jsonData.fullname);
+                $("#user_password_up").val(jsonData.password);
+                $("#user_email_up").val(jsonData.email);
+                $("#user_summary_up").val(jsonData.summary);
+                $("#user_birthdate_up").val(jsonData.birthdate);
+                $("#user_youtube_video_up").val(jsonData.youtube_video);
+                $("#user_country_up").val(jsonData.country);
+                $("#user_city_up").val(jsonData.city);
+                $("#user_address_up").val(jsonData.address);
+
+
+
+                //End Modal Update User
                 $("#twitter_link_up").val(jsonData.twitter);
                 $('#go_my_twitter').attr('href',"http://"+jsonData.twitter);
                 $("#my_phone_up").val(jsonData.phoneno);
+
+                $("#insta_link_up").val(jsonData.instagram);
+                $('#go_my_insta').attr('href',"http://"+jsonData.instagram);
 
                 // $("#admin_img_up").val(jsonData.img);
 
