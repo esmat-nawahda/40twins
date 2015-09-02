@@ -172,30 +172,33 @@
 
             </div>
         </div>
+
+
+
         <div class="col-sm-4 col-xs-8">
             <div id="tile10" class="tile">
-
+                <a href="#user_updateModal" data-toggle="modal" style="cursor: hand;">
                 <div class="carousel slide" data-ride="carousel">
                     <!-- Wrapper for slides -->
                     <div class="carousel-inner">
+
                         <div class="item active">
+
+
                             <h3 class="tilecaption"><i class="fa fa-child fa-4x"></i></h3>
-                        </div>
-                        <div class="item">
-                            <h3 class="tilecaption">Customize your tiles</h3>
-                        </div>
-                        <div class="item">
-                            <h3 class="tilecaption">Text, Icons, Images</h3>
-                        </div>
-                        <div class="item">
-                            <h3 class="tilecaption">Combine them and create your metro style</h3>
+
                         </div>
 
+
                     </div>
+
                 </div>
+                </a>
 
             </div>
         </div>
+
+
 
     </div>
 
