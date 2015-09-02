@@ -8,9 +8,12 @@
 
 <div id="user_updateModal" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-dialog">
-        <div class="modal-content" dir="rtl">
+
+        <div class="modal-content">
+<!--            <div class="modal-content" dir="rtl">-->
             <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <button style="color: #ffffff;" type="button" class="close btn btn-danger" data-dismiss="modal" aria-hidden="true"><i class="fa fa-times"></i></button>
+                <div style="clear: both;">&nbsp;</div>
                 <h2>Edit User Information</h2>
             </div>
             <div class="modal-body">
